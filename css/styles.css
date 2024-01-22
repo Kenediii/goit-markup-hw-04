@@ -7,6 +7,8 @@
     --blue:          #404bbf;
     --cloud:         #F4F4FD;
     --cornflower:    #E7E9FC;
+    --okean:    #404BBF;
+
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -77,6 +79,26 @@ span {
     gap: 40px;
 }
 
+.individual-styles{
+    color: var(--okean);
+    font-size: 16px;
+    font-weight: 500; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
+}
+
+.individual-styles::after{
+    content:' ';
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--OCEAN, #404BBF);
+    display: block;
+
+}
+
 .color-change {
     color: var(--navy-blue);
     font-size: 16px;
@@ -126,6 +148,16 @@ span {
 .section-effective-solutions {
     background-color: var(--navy-blue);
     padding: 188px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(
+	to bottom, 
+	rgba(46, 47, 66, 0.70), 
+	rgba(46, 47, 66, 0.70)
+	),
+	url(../images/background.jpg);
+    
+
 }
 
 .one-tittle {
