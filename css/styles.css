@@ -225,9 +225,9 @@ span {
     background: var(--CLOUD, #F4F4FD);
 }
 
-.description-svg {
+svg {
     width: 64px;
-    height: 64px; 
+    height: 64px;
 }
 
 .section-description_tittle {
