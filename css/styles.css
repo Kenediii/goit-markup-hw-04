@@ -202,7 +202,23 @@ span {
 
 /* друга секція*/
 
-.section-description_tittle{
+.container-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px; 
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    background: var(--CLOUD, #F4F4FD);
+}
+
+.description-svg {
+    width: 64px;
+    height: 64px; 
+}
+
+.section-description_tittle {
     color: var(--navy-blue);
     font-size: 20px;
     font-style: normal;
@@ -221,32 +237,6 @@ span {
     letter-spacing: 0.32px;
     margin-bottom: 8px;
 }
-
-/* це буде для третьої секції
-
-.three-tittle {
-    color: var(--navy-blue);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    margin-bottom: 8px;
-    text-align: center;
-}
-
-.text {
-    color: var(--slate);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    margin-bottom: 8px;
-    text-align: center;
-}
-
-*/
 
 /* третя секція*/
 
