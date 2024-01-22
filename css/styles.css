@@ -7,7 +7,6 @@
     --blue:          #404bbf;
     --cloud:         #F4F4FD;
     --cornflower:    #E7E9FC;
-    --ocean:         #404BBF;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -78,26 +77,6 @@ span {
     gap: 40px;
 }
 
-.active-page {
-    color: var(--ocean);
-    font-size: 16px;
-    font-weight: 500; 
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding: 24px 0;
-    display: block;
-}
-
-.active-page::after {
-    display: block;
-    content: ' ';
-    border-radius: 2px;
-    background: var(--OCEAN, #404BBF);
-    width: 48px;
-    height: 4px; 
-}
-
-
 .color-change {
     color: var(--navy-blue);
     font-size: 16px;
@@ -147,16 +126,6 @@ span {
 .section-effective-solutions {
     background-color: var(--navy-blue);
     padding: 188px 0;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/section-effective-solutions_background.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  
 }
 
 .one-tittle {
@@ -201,19 +170,6 @@ span {
 
 /* друга секція*/
 
-.one-svg {
-    width: 264px;
-    height: 112px;
-    flex-shrink: 0; 
-    border-radius: 4px;
-    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-    background: var(--CLOUD, #F4F4FD); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 8px;
-}
-
 .section-description_tittle{
     color: var(--navy-blue);
     font-size: 20px;
@@ -233,6 +189,32 @@ span {
     letter-spacing: 0.32px;
     margin-bottom: 8px;
 }
+
+/* це буде для третьої секції
+
+.three-tittle {
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.text {
+    color: var(--slate);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+*/
 
 /* третя секція*/
 
@@ -285,12 +267,6 @@ span {
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 72px;
-}
-
-.social-icon-link {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .section-description_menu-container {
@@ -376,32 +352,9 @@ span {
 
 /* футер */
 
-.footer {
+.footer{
     background-color: var(--navy-blue);
     padding: 100px 0;
-}
-
-.wrap {
-    display: flex;
-}
-
-.right-footer {
-    margin-left: 120px;
-
-}
-
-.right-footer a{
- margin-right: 16px;
-}
-
-.right-footer_tittle {
-    color: var(--white);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; 
-    letter-spacing: 0.32px; 
-    margin-bottom: 16px;
 }
 
 .text-logo {
@@ -441,4 +394,3 @@ span {
     clip: rect(0 0 0 0); 
     overflow: hidden;
 }
-
