@@ -393,7 +393,7 @@ span {
 
 }
 
-.container-img .portfolio-textp:hover {
+.container-img:hover .portfolio-textp {
     transform: translateY(0%);    
 }
 
