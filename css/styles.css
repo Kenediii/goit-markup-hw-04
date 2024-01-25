@@ -370,6 +370,12 @@ span {
     padding-bottom: 120px;
 }
 
+.container-img { 
+    position: relative;
+    overflow: hidden;
+    
+}
+
 .portfolio-tittle {
     color: var(--navy-blue);
     font-size: 36px;
